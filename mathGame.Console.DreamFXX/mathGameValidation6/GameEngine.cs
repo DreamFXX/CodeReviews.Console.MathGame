@@ -21,7 +21,7 @@ internal class GameEngine
 
             var result = Console.ReadLine();
 
-            result = Helpers.ValidateResult(result); // Validace! Aby nešlo zadat null a 0.
+            result = Helpers.ValidateResult(result);
 
 
             if (int.Parse(result) == firstNumber / secondNumber)
@@ -62,7 +62,7 @@ internal class GameEngine
 
             var result = Console.ReadLine();
 
-            result = Helpers.ValidateResult(result); // Validace! Aby nešlo zadat null a 0.
+            result = Helpers.ValidateResult(result); 
 
 
             if (int.Parse(result) == firstNumber * secondNumber)
@@ -103,7 +103,7 @@ internal class GameEngine
 
             var result = Console.ReadLine();
 
-            result = Helpers.ValidateResult(result); // Validace! Aby nešlo zadat null a 0.
+            result = Helpers.ValidateResult(result); 
 
 
             if (int.Parse(result) == firstNumber - secondNumber)
@@ -144,7 +144,7 @@ internal class GameEngine
 
             var result = Console.ReadLine();
 
-            result = Helpers.ValidateResult(result); // Validace! Aby nešlo zadat null a 0.
+            result = Helpers.ValidateResult(result); 
 
             if (int.Parse(result) == firstNumber + secondNumber)
             {
